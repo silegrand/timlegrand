@@ -379,25 +379,133 @@
     .hero-text > *:nth-child(6) { animation-delay: 0.5s; }
 
     /* ── RESPONSIVE ── */
+
+    /* Tablet: 600–900px */
     @media (max-width: 900px) {
-      nav { padding: 0 1.5rem; }
-      .nav-links { gap: 1rem; }
-      .nav-links a { font-size: 0.65rem; }
+      nav { padding: 0 2rem; }
+      .nav-links { gap: 1.25rem; }
+      .nav-links a { font-size: 0.68rem; letter-spacing: 0.08em; }
+
       #home { grid-template-columns: 1fr; min-height: auto; }
-      .hero-text { padding: 4rem 2rem 3rem; }
-      .hero-image { height: 70vw; }
+      .hero-text { padding: 5rem 2.5rem 3rem; }
+      .hero-image { height: 65vw; max-height: 480px; }
+
       .feature-strip { grid-template-columns: 1fr; }
-      .feature-tile { border-right: none; border-bottom: 1px solid var(--rule); }
+      .feature-tile { border-right: none; border-bottom: 1px solid var(--rule); padding: 2.5rem 2rem; }
+
       #about, #research, #publications, #grants, #supervision, #activities, #engagement, #contact {
-        padding: 5rem 1.5rem;
+        padding: 5rem 2.5rem;
       }
-      .about-grid, .contact-inner, .activities-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .about-grid { grid-template-columns: 1fr; gap: 3rem; }
       .research-header { grid-template-columns: 1fr; gap: 2rem; }
-      .themes-grid, .supervision-grid { grid-template-columns: 1fr; }
+      .themes-grid { grid-template-columns: 1fr; }
+      .supervision-grid { grid-template-columns: 1fr; }
       .engagement-grid { grid-template-columns: 1fr; }
+      .activities-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
       .grant-entry { grid-template-columns: 60px 1fr; }
-      .pub-tabs { flex-wrap: wrap; }
-      footer { padding: 2rem 1.5rem; flex-direction: column; gap: 0.5rem; text-align: center; }
+      .pub-tabs { flex-wrap: wrap; gap: 0.25rem; }
+      footer { padding: 2rem 2.5rem; flex-direction: column; gap: 0.5rem; text-align: center; }
+    }
+
+    /* Mobile: up to 599px */
+    @media (max-width: 599px) {
+      /* Nav: hide text links, show hamburger */
+      nav { padding: 0 1.25rem; height: 56px; }
+      .nav-brand { font-size: 1rem; }
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex; flex-direction: column; gap: 0;
+        position: fixed; top: 56px; left: 0; right: 0;
+        background: var(--cream); border-bottom: 1px solid var(--rule);
+        padding: 0.5rem 0; z-index: 99;
+      }
+      .nav-links.open li { border-bottom: 1px solid var(--rule); }
+      .nav-links.open a {
+        display: block; padding: 0.85rem 1.5rem;
+        font-size: 0.78rem; letter-spacing: 0.1em;
+      }
+      .hamburger { display: none; }
+    @media (max-width: 599px) {
+    .hamburger {
+        display: flex; flex-direction: column; justify-content: center;
+        gap: 5px; cursor: pointer; padding: 8px; background: none; border: none;
+      }
+      .hamburger span {
+        display: block; width: 22px; height: 1.5px;
+        background: var(--ink); transition: all 0.25s;
+      }
+    } /* end hamburger media query */
+      .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(4.5px, 4.5px); }
+      .hamburger.open span:nth-child(2) { opacity: 0; }
+      .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(4.5px, -4.5px); }
+
+      /* Hero */
+      section { scroll-margin-top: 56px; }
+      #home { padding-top: 56px; }
+      .hero-text { padding: 3rem 1.25rem 2.5rem; }
+      .hero-name { font-size: 2.6rem; }
+      .hero-bio { font-size: 1.1rem; }
+      .hero-image { height: 75vw; }
+      .hero-actions { flex-direction: column; }
+      .btn-primary, .btn-outline { text-align: center; padding: 0.85rem 1.5rem; }
+
+      /* Feature strip */
+      .feature-strip { grid-template-columns: 1fr; }
+      .feature-tile { padding: 2rem 1.25rem; }
+      .feature-num { font-size: 2rem; }
+
+      /* Sections */
+      #about, #research, #publications, #grants,
+      #supervision, #activities, #engagement, #contact {
+        padding: 4rem 1.25rem;
+      }
+      .section-heading { font-size: 1.9rem; }
+
+      /* About */
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+
+      /* Research */
+      .research-header { grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 2rem; }
+      .project-card { padding: 1.5rem; }
+      .themes-grid { grid-template-columns: 1fr; gap: 1rem; }
+      .theme-card { padding: 1.25rem; }
+
+      /* Publications */
+      .pub-tabs { flex-wrap: wrap; gap: 0; }
+      .pub-tab { padding: 0.6rem 1rem; font-size: 0.68rem; }
+      .pub-entry { padding: 0.85rem 0 0.85rem 0.85rem; }
+      .pub-entry-title { font-size: 0.95rem; }
+      .book-card { grid-template-columns: 4px 1fr; gap: 1rem; }
+
+      /* Grants */
+      .grant-entry { grid-template-columns: 1fr; gap: 0.25rem; padding: 1.25rem 0; }
+      .grant-year {
+        font-size: 0.72rem; font-family: 'Jost', sans-serif;
+        letter-spacing: 0.15em; text-transform: uppercase;
+        color: var(--accent); margin-bottom: 0.25rem;
+      }
+      .grant-title { font-size: 1rem; }
+
+      /* Supervision */
+      .supervision-grid { grid-template-columns: 1fr; gap: 1rem; }
+      .supervision-card { padding: 1.25rem; }
+      .supervision-topic { font-size: 0.95rem; }
+
+      /* Activities */
+      .activities-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .activity-row { grid-template-columns: 55px 1fr; gap: 0.75rem; }
+      .activity-date { font-size: 0.8rem; }
+
+      /* Engagement */
+      .engagement-grid { grid-template-columns: 1fr; gap: 1.25rem; }
+      .engage-card { padding: 1.5rem; }
+
+      /* Contact */
+      .contact-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+
+      /* Footer */
+      footer { padding: 1.5rem 1.25rem; flex-direction: column; gap: 0.5rem; text-align: center; font-size: 0.72rem; }
     }
   </style>
 </head>
@@ -406,7 +514,10 @@
 <!-- NAV -->
 <nav>
   <a href="#home" class="nav-brand">Professor Tim Legrand</a>
-  <ul class="nav-links">
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#research">Research</a></li>
     <li><a href="#publications">Publications</a></li>
@@ -425,7 +536,7 @@
     <h1 class="hero-name">Professor<br><em>Tim Legrand</em></h1>
     <p class="hero-title">Department of Politics &amp; International Relations</p>
     <div class="hero-rule"></div>
-    <p class="hero-bio">I study how states, international organisations, and transnational networks exercise and contest power — through sanctions, blacklists, counter-terrorism law, and the movement of policy ideas across borders.</p>
+    <p class="hero-bio">I study how states, international organisations, and transnational networks exercise and contest power: through sanctions, blacklists, counter-terrorism law, and the movement of policy ideas across borders.</p>
     <div class="hero-actions">
       <a href="#research" class="btn-primary">My Research</a>
       <a href="#publications" class="btn-outline">Publications</a>
@@ -443,7 +554,7 @@
     <div class="feature-num">01</div>
     <div class="feature-label">Flagship Project</div>
     <div class="feature-title">ARC Future Fellowship 2024–2028</div>
-    <p class="feature-body">Combating the misuse of blacklists as tools of authoritarian repression — using machine learning to map hidden designation regimes globally. $1.13M ARC-funded.</p>
+    <p class="feature-body">Combating the misuse of blacklists as tools of authoritarian repression, using machine learning to map hidden designation regimes globally. $1.13M ARC-funded.</p>
   </div>
   <div class="feature-tile">
     <div class="feature-num">02</div>
@@ -467,7 +578,7 @@
         <p class="section-label">About</p>
         <h2 class="section-heading">Security, power,<br><em>and global governance</em></h2>
         <p class="body-text">Professor Tim Legrand is an ARC Future Fellow and Professor in the Department of Politics and International Relations at Adelaide University. He is also Associate Dean (Research Performance) for the Faculty of Arts, Business, Law &amp; Economics.</p>
-        <p class="body-text">His research examines the national and international dimensions of global security decision-making, with a particular focus on transnational networks and institutions. His work spans global blacklisting and sanctions, digital security, terrorism, political violence, and political exclusion — drawing on public administration, law, sociology, and critical security studies.</p>
+        <p class="body-text">His research examines the national and international dimensions of global security decision-making, with a particular focus on transnational networks and institutions. His work spans global blacklisting and sanctions, digital security, terrorism, political violence, and political exclusion, drawing on public administration, law, sociology, and critical security studies.</p>
         <p class="body-text">He is Editor-in-Chief of the <em>Australian Journal of International Affairs</em>, Co-Convenor of the APSA Policy Studies Research Group, and adjunct Associate Professor of Public Policy at the Centre for Governance and Policy Analysis, University of Canberra.</p>
         <p class="body-text">He joined Adelaide in 2018, having held positions at the National Security College at ANU and the ARC Centre of Excellence in Policing and Security at Griffith University. He holds visiting fellowships from Sciences Po Paris, Johns Hopkins University, the University of East Anglia, and the University of Stockholm. His PhD in Political Science was awarded by the University of Birmingham in 2008.</p>
         <div style="margin-top:2rem;">
@@ -529,7 +640,7 @@
         <p class="section-label">Research</p>
         <h2 class="section-heading">Projects &amp;<br><em>Themes</em></h2>
       </div>
-      <p class="body-text">Professor Legrand's research maps the architecture through which security decisions travel — across states, international organisations, and the informal networks of like-minded democracies.</p>
+      <p class="body-text">Professor Legrand's research maps the architecture through which security decisions travel across states,, international organisations, and the informal networks of like-minded democracies.</p>
     </div>
 
     <p class="subsection-title">Current Projects</p>
@@ -572,7 +683,7 @@
     <div class="themes-grid">
       <div class="theme-card">
         <h4>Global Blacklisting &amp; Sanctions</h4>
-        <p>How authoritarian and democratic states use blacklists — designations that restrict movement, finances, and freedoms — and how these tools are weaponised for political repression.</p>
+        <p>How authoritarian and democratic states use blacklists: designations that restrict movement, finances, and freedoms, and how these tools are weaponised for political repression.</p>
       </div>
       <div class="theme-card">
         <h4>Transgovernmentalism &amp; Policy Transfer</h4>
@@ -584,7 +695,7 @@
       </div>
       <div class="theme-card">
         <h4>Digital Security &amp; Liberal Democracy</h4>
-        <p>The intersection of digital technologies, extremism, and democratic institutions — including foreign interference, online radicalisation, and the Anglosphere cyber-security posture.</p>
+        <p>The intersection of digital technologies, extremism, and democratic institutions, including foreign interference, online radicalisation, and the Anglosphere cyber-security posture.</p>
       </div>
     </div>
   </div>
@@ -706,7 +817,7 @@
           <div class="pub-metrics"><span class="metric-pill">Altmetric 6</span><span class="metric-pill">Scopus 8</span><span class="metric-pill">WoS 6</span></div>
         </div>
         <div class="pub-entry">
-          <div class="pub-entry-title">"More symbolic—more political—than substantive": an interview with James R. Clapper on the U.S. Designation of Foreign Terrorist Organizations</div>
+          <div class="pub-entry-title">"More symbolic, more political, than substantive": an interview with James R. Clapper on the U.S. Designation of Foreign Terrorist Organizations</div>
           <div class="pub-entry-authors">Legrand, T.</div>
           <div class="pub-entry-venue"><em>Terrorism and Political Violence</em>, 30(2), 356–372</div>
           <div class="pub-metrics"><span class="metric-pill">Altmetric 24</span><span class="metric-pill">Scopus 11</span><span class="metric-pill">WoS 13</span></div>
@@ -829,7 +940,7 @@
           <div class="book-title">The Architecture of Policy Transfer: Ideas, Institutions and Networks in Transnational Policymaking</div>
           <div class="book-author">Tim Legrand</div>
           <div class="book-publisher">Palgrave Macmillan, 2021 · Studies in the Political Economy of Public Policy</div>
-          <p class="book-desc">Examines the transnational architecture through which policy ideas travel — exploring the institutions, networks, and ideas that structure how governments learn from and copy one another across borders.</p>
+          <p class="book-desc">Examines the transnational architecture through which policy ideas travel, exploring the institutions, networks, and ideas that structure how governments learn from and copy one another across borders.</p>
         </div>
       </div>
       <div class="book-card">
@@ -838,7 +949,7 @@
           <div class="book-title">Banning Them, Securing Us? Terrorism, Parliament and the Ritual of Proscription</div>
           <div class="book-author">Lee Jarvis &amp; Tim Legrand</div>
           <div class="book-publisher">Manchester University Press, 2020 · Scopus 15 · WoS 9</div>
-          <p class="book-desc">Explores twenty years of UK parliamentary debates on banning terrorist organisations. Proscription is as much a ritualistic performance of liberal democracy as a security technique — with significant implications for rights and political participation.</p>
+          <p class="book-desc">Explores twenty years of UK parliamentary debates on banning terrorist organisations. Proscription is as much a ritualistic performance of liberal democracy as a security technique, with significant implications for rights and political participation.</p>
         </div>
       </div>
       <p class="subsection-title">Edited Volumes</p>
@@ -960,7 +1071,7 @@
     <div class="grant-entry">
       <div class="grant-year">2018</div>
       <div class="grant-body">
-        <div class="grant-funder">Gerda Henkel Stiftung Foundation — Special Programme: Security, Society and the State</div>
+        <div class="grant-funder">Gerda Henkel Stiftung Foundation: Special Programme: Security, Society and the State</div>
         <div class="grant-title">Tackling Transnational Threats: The Architecture of Anglosphere Security Collaboration</div>
         <div class="grant-detail">Chief Investigator &nbsp;·&nbsp; Grant AZ 09/KF/18</div>
       </div>
@@ -996,7 +1107,7 @@
     <div class="supervision-grid">
       <div class="supervision-card">
         <div class="supervision-role principal">Principal Supervisor</div>
-        <div class="supervision-topic">Blacklisting as a repressive authoritarian tool — the case of Saudi Arabia and Egypt</div>
+        <div class="supervision-topic">Blacklisting as a repressive authoritarian tool: the case of Saudi Arabia and Egypt</div>
         <div class="supervision-meta">Ms Suzanne Abou Omar</div>
         <span class="supervision-degree">PhD · Full Time · 2026</span>
       </div>
@@ -1026,7 +1137,7 @@
       </div>
       <div class="supervision-card">
         <div class="supervision-role cosup">Co-Supervisor</div>
-        <div class="supervision-topic">Australia's Defence, Diplomacy &amp; Development Interface — Why doing the same thing and expecting different results will no longer work in the Pacific</div>
+        <div class="supervision-topic">Australia's Defence, Diplomacy &amp; Development Interface: Why doing the same thing and expecting different results will no longer work in the Pacific</div>
         <div class="supervision-meta">Ms Salote Koronuku Jade Tagivakatini</div>
         <span class="supervision-degree">PhD · Full Time · 2025</span>
       </div>
@@ -1174,28 +1285,28 @@
       <div class="engage-card">
         <h4>International Organisations</h4>
         <ul>
-          <li>United Nations — Advisor on blacklisting &amp; sanctions (East Africa &amp; Afghanistan)</li>
-          <li>UNDP Afghanistan — Sanctions compliance consulting</li>
-          <li>Swiss Refugee Council — Blacklisting compliance</li>
-          <li>WorldVision — Sanctions advisory</li>
-          <li>International Court of Justice — Research cited in proceedings</li>
+          <li>United Nations: Advisor on blacklisting &amp; sanctions (East Africa &amp; Afghanistan)</li>
+          <li>UNDP Afghanistan: Sanctions compliance consulting</li>
+          <li>Swiss Refugee Council: Blacklisting compliance</li>
+          <li>WorldVision: Sanctions advisory</li>
+          <li>International Court of Justice: Research cited in proceedings</li>
         </ul>
       </div>
       <div class="engage-card">
         <h4>Australian Government</h4>
         <ul>
-          <li>Dept. of Defence — Digital threats to liberal democracy</li>
-          <li>Dept. of Home Affairs — Digital security research</li>
-          <li>Dept. of Foreign Affairs &amp; Trade — Research training</li>
-          <li>Commonwealth Inspector of Transport Security — Expert Advisor (2016)</li>
+          <li>Dept. of Defence: Digital threats to liberal democracy</li>
+          <li>Dept. of Home Affairs: Digital security research</li>
+          <li>Dept. of Foreign Affairs &amp; Trade: Research training</li>
+          <li>Commonwealth Inspector of Transport Security: Expert Advisor (2016)</li>
         </ul>
       </div>
       <div class="engage-card">
         <h4>Industry &amp; Other</h4>
         <ul>
-          <li>Macquarie Telecoms — Cyber security governance (2016)</li>
-          <li>Cyber Security CRC — Anglosphere cyber security research</li>
-          <li>Gerda Henkel Stiftung — Security, Society and the State programme</li>
+          <li>Macquarie Telecoms: Cyber security governance (2016)</li>
+          <li>Cyber Security CRC: Anglosphere cyber security research</li>
+          <li>Gerda Henkel Stiftung: Security, Society and the State programme</li>
         </ul>
       </div>
     </div>
@@ -1222,7 +1333,7 @@
           <div><span class="link-label">ORCID</span>0000-0002-5205-5914</div>
         </a>
         <a class="contact-link" href="https://scholar.google.com/citations?user=epV86xcAAAAJ" target="_blank">
-          <div><span class="link-label">Google Scholar</span>Professor Tim Legrand — 1,100+ Citations</div>
+          <div><span class="link-label">Google Scholar</span>Professor Tim Legrand, 1,100+ Citations</div>
         </a>
         <div class="contact-link" style="cursor:default;">
           <div><span class="link-label">Institution</span>School of Society &amp; Culture<br>College of Education, Behavioural &amp; Social Sciences<br>Adelaide University, South Australia</div>
@@ -1238,12 +1349,33 @@
 </footer>
 
 <script>
+  // Tab switcher
   function showTab(e, name) {
     document.querySelectorAll('.pub-panel').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.pub-tab').forEach(t => t.classList.remove('active'));
     document.getElementById('tab-' + name).classList.add('active');
     e.target.classList.add('active');
   }
+
+  // Mobile hamburger
+  function toggleNav() {
+    const nav = document.getElementById('nav-links');
+    const btn = document.getElementById('hamburger');
+    nav.classList.toggle('open');
+    btn.classList.toggle('open');
+  }
+
+  // Close mobile nav on link click
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('hamburger').classList.remove('open');
+      });
+    });
+  });
+
+  // Active nav highlighting
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
   const observer = new IntersectionObserver((entries) => {
@@ -1254,7 +1386,7 @@
         if (active) active.classList.add('active');
       }
     });
-  }, { threshold: 0.3 });
+  }, { threshold: 0.25 });
   sections.forEach(s => observer.observe(s));
 </script>
 </body>
