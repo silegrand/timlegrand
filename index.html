@@ -30,22 +30,22 @@
     /* ── NAV ── */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      background: rgba(247,244,239,0.93); backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--rule);
+      background: var(--accent);
+      border-bottom: none;
       padding: 0 4rem; height: 64px;
       display: flex; align-items: center; justify-content: space-between;
     }
     .nav-brand {
       font-family: 'Cormorant Garamond', serif; font-weight: 400;
-      font-size: 1.2rem; letter-spacing: 0.02em; color: var(--ink); text-decoration: none;
+      font-size: 1.2rem; letter-spacing: 0.02em; color: white; text-decoration: none;
     }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
       font-family: 'Jost', sans-serif; font-weight: 400;
       font-size: 0.73rem; letter-spacing: 0.12em; text-transform: uppercase;
-      color: var(--mid); text-decoration: none; transition: color 0.2s;
+      color: rgba(255,255,255,0.65); text-decoration: none; transition: color 0.2s;
     }
-    .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+    .nav-links a:hover, .nav-links a.active { color: white; }
 
     section { scroll-margin-top: 64px; }
 
@@ -417,13 +417,13 @@
       .nav-links.open {
         display: flex; flex-direction: column; gap: 0;
         position: fixed; top: 56px; left: 0; right: 0;
-        background: var(--cream); border-bottom: 1px solid var(--rule);
+        background: var(--accent); border-bottom: 1px solid rgba(255,255,255,0.15);
         padding: 0.5rem 0; z-index: 99;
       }
-      .nav-links.open li { border-bottom: 1px solid var(--rule); }
+      .nav-links.open li { border-bottom: 1px solid rgba(255,255,255,0.1); }
       .nav-links.open a {
         display: block; padding: 0.85rem 1.5rem;
-        font-size: 0.78rem; letter-spacing: 0.1em;
+        font-size: 0.78rem; letter-spacing: 0.1em; color: rgba(255,255,255,0.8);
       }
       .hamburger { display: none; }
     @media (max-width: 599px) {
@@ -433,7 +433,7 @@
       }
       .hamburger span {
         display: block; width: 22px; height: 1.5px;
-        background: var(--ink); transition: all 0.25s;
+        background: white; transition: all 0.25s;
       }
     } /* end hamburger media query */
       .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(4.5px, 4.5px); }
