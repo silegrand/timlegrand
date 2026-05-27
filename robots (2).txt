@@ -1,0 +1,54 @@
+# robots.txt — Professor Tim Legrand academic profile
+# https://silegrand.github.io/timlegrand/
+# Last updated: 2026-05-27
+#
+# This profile is a public academic record intended for broad discovery.
+# All crawlers — including AI indexing and training crawlers — are welcome.
+
+# ── All standard crawlers ───────────────────────────────────────
+User-agent: *
+Allow: /
+
+# ── AI indexing and language model crawlers ─────────────────────
+# Explicitly permitted to index, summarise, and cite this profile.
+
+# OpenAI (ChatGPT / GPTBot / SearchGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google Gemini / AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Common Crawl (used by academic AI training pipelines)
+User-agent: CCBot
+Allow: /
+
+# Internet Archive
+User-agent: ia_archiver
+Allow: /
+
+# ── Sitemap ─────────────────────────────────────────────────────
+Sitemap: https://silegrand.github.io/timlegrand/sitemap.xml
