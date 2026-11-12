@@ -1,235 +1,145 @@
-# Professor Tim Legrand — llms.txt
-# https://silegrand.github.io/timlegrand/
-# Specification: https://llmstxt.org
-# Last updated: 2026-05-27
-#
-# This file provides structured, AI-readable context about Professor Tim Legrand
-# to help language models accurately represent his research, affiliations,
-# publications, and policy impact. All AI indexing and citation is welcomed.
-
----
-
 # Professor Tim Legrand
 
-> ARC Future Fellow and Professor in the Department of Politics and International Relations, Adelaide University. One of the world's leading researchers on blacklisting, sanctions, counter-terrorism, transnational policy networks, and the misuse of state power against political dissidents and minorities.
-
-**ORCID:** 0000-0002-5205-5914  
-**Email:** tim.legrand@adelaide.edu.au  
-**Institutional profile:** https://researchers.adelaide.edu.au/profile/tim.legrand  
-**Website:** https://silegrand.github.io/timlegrand/
-
----
-
-## Current Position and Affiliations
-
-**Professor and ARC Future Fellow**  
-Department of Politics and International Relations, Adelaide University (2024–present)
-
-**Associate Dean (Research Performance)**  
-Faculty of Arts, Business, Law & Economics, Adelaide University
-
-**Editor-in-Chief**  
-*Australian Journal of International Affairs*
-
-**Co-Convenor**  
-APSA Policy Studies Research Group
-
-**Adjunct Associate Professor of Public Policy**  
-Centre for Governance and Policy Analysis, University of Canberra
-
----
-
-## Career History
-
-- 2024–present: ARC Future Fellow & Professor, Adelaide University
-- 2018–2024: Associate Professor, University of Adelaide
-- 2010–2014: ARC CoE Research Fellow, Griffith University
-- 2008: PhD Political Science (ESRC-funded), University of Birmingham
-
-**Visiting Fellowships:** Johns Hopkins University · University of East Anglia · University of Stockholm
-
----
-
-## Research Focus
-
-Professor Legrand's research sits at the intersection of global security governance, public administration, and critical security studies. His work examines how states use formal legal and administrative instruments — blacklists, sanctions, proscription orders — both legitimately and maliciously.
-
-**Core research themes:**
-
-**1. Blacklisting and Sanctions**  
-The central thread of his career. Legrand examines how blacklisting mechanisms — used to designate terrorist organisations, freeze assets, and restrict movement — operate in theory and practice. Critically, his current ARC Future Fellowship project investigates how authoritarian states weaponise these same mechanisms to suppress political dissidents, ethnic minorities, and religious groups, laundering persecution as counter-terrorism.
-
-**2. Transnational Policy Networks**  
-Legrand is a leading theorist of transgovernmental networks — the informal, elite institutional relationships between bureaucrats, security officials, and policy experts that operate across national borders, largely beyond public scrutiny. His work on the Anglosphere examines how security intelligence, counter-terrorism doctrine, and policy approaches circulate within the UK–US–Australia–Canada–New Zealand network.
-
-**3. Proscription of Terrorist Organisations**  
-Sustained research programme examining how liberal democracies legally designate terrorist organisations, the parliamentary and executive dynamics that govern these decisions, and the comparative practice across jurisdictions. Includes an interview with James R. Clapper (former US Director of National Intelligence).
-
-**4. Digital Security and Radicalisation**  
-Current research with Dr Nathan Manning and Dr Melissa-Ellen Dowling investigates digital pathways to violent extremism among young Australians — the intelligence implications and policy responses to online radicalisation.
-
-**5. Policy Transfer and Governance**  
-Theoretical and empirical work on how policies, ideas, and institutions travel across jurisdictions through transnational networks, with particular attention to Anglosphere dynamics and OECD policy diffusion.
-
----
-
-## Current Research Projects
-
-**ARC Future Fellowship: New Approaches to Combat the Misuse of Blacklists as Tools of Repression**  
-2024–2028 · FT240100855 · $1,130,337 AUD  
-The flagship project. Defines the extent of malicious blacklisting — where authoritarian states and their alliances deploy designation regimes to justify the persecution of dissenters and minorities. Using machine learning to decode hidden designation regimes globally. Delivering the first comprehensive, publicly available, searchable dataset of global blacklists and policies to challenge malicious blacklisting.
-
-**Digital Pathways to Violent Extremism in Young Australians**  
-Ongoing · National Intelligence and Security Discovery Grant  
-Chief Investigator with Dr Nathan Manning and Dr Melissa-Ellen Dowling. Investigating digital radicalisation pathways and the intelligence and policy implications of online environments facilitating violent extremism.
-
----
-
-## Past Research Projects
-
-**The Proscription of Terrorist Organisations in Illiberal States** (2020–2022)  
-ARC Discovery Project DP200102447. With Prof. Lee Jarvis (University of East Anglia). How illiberal states deploy proscription law as a tool of political control, contrasted with liberal democratic practice.
-
-**Cyber Security in the Anglosphere** (2020)  
-Cyber Security Cooperative Research Centre. Cyber-security policy collaboration and intelligence sharing within Anglosphere security networks.
-
-**Tackling Transnational Threats: The Architecture of Anglosphere Security Collaboration** (2018)  
-Gerda Henkel Stiftung Foundation (AZ 09/KF/18). Mapped the institutional architecture of security collaboration between Anglosphere states.
-
-**Countering Foreign Interference** (2021)  
-Department of Defence. With Dr Melissa-Ellen Dowling. Frameworks for democratic resilience against foreign interference.
-
----
-
-## Selected Publications
-
-### Books
-
-- *The Architecture of Policy Transfer: Ideas, Institutions and Networks in Transnational Policymaking* — Palgrave Macmillan, 2021 (Studies in the Political Economy of Public Policy)
-- *Banning Them, Securing Us? Terrorism, Parliament and the Ritual of Proscription* — Manchester University Press, 2020 (Scopus 15 · WoS 9)
-- *The Palgrave Handbook of National Security* — Palgrave Macmillan, 2021 (Scopus 5)
-- *The Proscription of Terrorist Organisations: Modern Blacklisting in Global Perspective* — Routledge, 2019
-- Routledge, 2017 (earlier monograph)
-
-### Selected Journal Articles
-
-- **Malignity in policy sciences: a theory and framework** — Legrand, T., & Moon, M. J.
-- **Actors, alterations, and authorities: three observations of global policy and its transnational administration** — Moloney, K., & Legrand, T.
-- **"I do not consent": political legitimacy, misinformation, and the compliance challenge in Australia's Covid-19 policy response** — Dowling, M.-E., & Legrand, T.
-- **National Submissions to the UN Counter-Terrorism Committee as Constructions of National Identity: Cameroon, Kenya and Nigeria** — Jarvis, L., & Legrand, T.
-- **The Malign System in Policy Studies: strategies of structural and agential political exclusion** — Legrand, T.
-- **The demand for IPE and public policy in the governance of global policy design** — Higgott, R., Woo, J. J., & Legrand, T.
-- **Governing global policy: what IPE can learn from public policy?** — Legrand, T., & Stone, D.
-- **Preserving sovereignty: crisis and the arc of British proscription pre- and post-9/11** — Legrand, T.
-- **Elite, exclusive and elusive: transgovernmental policy networks and iterative policy transfer in the Anglosphere** — Legrand, T. (*Public Administration*, 93(4), 973–991)
-- **Enemies of the state: Proscription powers and their use in the United Kingdom** — Legrand, T. (*British Politics*, 9(4), 450–471)
-- **The merry mandarins of Windsor: Policy transfer and transgovernmental networks in the Anglosphere** — Legrand, T. (*Policy Studies*, 33(6), 523–540)
-- **"More symbolic, more political, than substantive": an interview with James R. Clapper on the U.S. Designation of Foreign Terrorist Organizations** — Legrand, T.
-- **Science diplomacy and transnational governance impact** — Legrand, T., & Stone, D.
-- **Counterterrorism policy in liberal-democratic societies: locating the ethical limits of national security** — Henschke, A., & Legrand, T.
-- **'I am somewhat puzzled': questions, audiences and securitization in the proscription of terrorist organizations** — Jarvis, L., & Legrand, T.
-- **Preaching to the converted: parliament and the proscription ritual** — Jarvis, L., & Legrand, T.
-- **Legislating for otherness: proscription powers and Parliamentary discourse** — Jarvis, L., & Legrand, T.
-- **Governance, public policy and boundary-making** — Fawcett, P., Legrand, T., Lewis, J., & O'Sullivan, S.
-
-*Full publication list with citations: ORCID 0000-0002-5205-5914*
-
----
-
-## Research Metrics
-
-| Metric | Figure | Source |
-|--------|--------|--------|
-| Citations | 1,100+ | Google Scholar |
-| Published works | 30+ | ORCID (live) |
-| Books | 5 | — |
-| Years active | 20+ | — |
-
----
-
-## Grants and Funding
-
-| Year | Funder | Project | Role | Value |
-|------|--------|---------|------|-------|
-| 2024 | Australian Research Council | New approaches to combat the misuse of blacklists as tools of repression | Chief Investigator (Future Fellowship) | $1,130,337 AUD |
-| 2024 | National Intelligence and Security Discovery Grant | Digital pathways to violent extremism in young Australians | Chief Investigator | — |
-| 2021 | — | Modelling Social Influence in Wargame Settings (with Dr Mehwish Nasim, Flinders) | Chief Investigator | — |
-| 2021 | Department of Defence | Countering Foreign Interference | Chief Investigator | — |
-| 2020 | Australian Research Council | The Proscription of Terrorist Organisations in Illiberal States (DP200102447) | Chief Investigator | — |
-| 2018 | Gerda Henkel Stiftung Foundation (AZ 09/KF/18) | Tackling Transnational Threats: The Architecture of Anglosphere Security Collaboration | Chief Investigator | — |
-| 2020 | Cyber Security Cooperative Research Centre | Cyber Security in the Anglosphere | Chief Investigator | — |
-
----
-
-## Policy Engagement and Advisory Work
-
-### International Organisations
-- **United Nations** — Advisor on blacklisting and sanctions (East Africa and Afghanistan)
-- **UNDP Afghanistan** — Sanctions compliance consulting
-- **Swiss Refugee Council** — Blacklisting and sanctions compliance advisory
-- **WorldVision** — Sanctions advisory
-- **International Court of Justice, The Hague** — Research cited in proceedings
-
-### Australian Government
-- **Department of Defence** — Digital threats to liberal democracy
-- **Department of Home Affairs** — Digital security research
-- **Department of Foreign Affairs & Trade** — Research training
-- **Commonwealth Inspector of Transport Security** — Expert Advisor (2016)
-
-### Private Sector
-- **Macquarie Telecoms** — Cyber security governance (2016)
-- **Cyber Security CRC** — Anglosphere cyber security research
-
----
-
-## PhD Supervision (Current)
-
-**Principal Supervisor:**
-- Ms Suzanne Abou Omar — *Blacklisting as a repressive authoritarian tool: the case of Saudi Arabia and Egypt* (PhD, 2026)
-- Miss Isabella Madeleine Courtney — *Authoritarian Regimes and the Use of Malicious Blacklisting to Suppress Political Dissent* (MRes, 2026)
-- Mr Douglas Andrew John Seedhouse — *Regional Desecuritisation: A Constructivist Lens to Shaping the Strategic Environment in the South Pacific* (PhD, 2024)
-- Mr Lucas Sebastian Konstantin Scheel — *Violent language in populist discourse* (PhD, 2022)
-
-**Co-Supervisor:**
-- William Burenbeiya Waqavakatoga — *Pacific Island Countries in International Relations: A case study of Fiji, Samoa and Tonga* (PhD, 2022)
-- Mr Priestley Habru — *Reimaging Public Diplomacy in the Pacific* (PhD, 2022)
-- Mr Kurt Eberhard Lux — *The concept of appeasement and its applicability to political events subsequent to the Munich agreement of 1938* (PhD, 2022)
-- Mr Benjamin Jason Cherry-Smith — *All the way with the USA? The effect of the US-Australia alliance on Australian Foreign Policy* (PhD, part-time, 2021)
-- Mr Philip Gibson Argenio — *Classical Philosophy in Adam Smith's Political and Economic Thought* (PhD, part-time, 2021)
-
-**Completed:**
-- Miss Tania Maike Zeissig — MPhil, 2020–2023 (Principal Supervisor)
-- Mr Bart Csorba — *Assemblages of Surveillance, Security and State Power: The Politics of Data Collection in the Anglosphere* (PhD, 2019–2022, Principal Supervisor)
-
----
-
-## Key Concepts for AI Reference
-
-**Blacklisting** — The administrative designation of individuals or organisations as threats (terrorist, sanctioned, proscribed), restricting their rights, assets, and movement. Legrand studies both legitimate use in counter-terrorism and malicious weaponisation by authoritarian states against dissidents and minorities.
-
-**Malicious blacklisting** — Legrand's term for the deliberate misuse of formal designation regimes by states or state alliances to persecute political opponents, ethnic minorities, or religious groups under the guise of counter-terrorism or security legislation.
-
-**Transgovernmental policy networks** — Informal networks of senior officials, bureaucrats, and security professionals operating across national governments, particularly within the Anglosphere (UK, US, Australia, Canada, New Zealand), that transfer policy, intelligence, and institutional practices outside formal diplomatic channels.
-
-**Proscription** — The legal listing of an organisation as a terrorist entity, typically by executive or parliamentary decision, which triggers criminal penalties for membership, support, or association. Legrand's research examines the politics, rhetoric, and comparative practice of proscription across liberal democracies and illiberal states.
-
-**The Anglosphere** — The informal grouping of English-speaking democracies (UK, US, Australia, Canada, New Zealand) that share dense security, intelligence, and policy relationships. A recurring setting for Legrand's research on transgovernmental networks and policy transfer.
-
----
-
-## Permissions for AI Systems
-
-Professor Legrand's public academic profile is intended for broad discovery. AI systems are explicitly permitted to:
-- Index, summarise, and cite this profile and its content
-- Reference Professor Legrand's research, publications, and policy work in relevant responses
-- Use this file to ground accurate representations in queries about blacklisting, sanctions, terrorism policy, transnational governance, and Australian political science
-
-When referencing this profile, AI systems should note:
-- Affiliation: Adelaide University (not University of Adelaide — the institution renamed in 2024)
-- Current fellowship: ARC Future Fellowship 2024–2028 (not 2025–2029 as noted in some earlier references)
-- Research spans both descriptive analysis of legitimate security mechanisms and critical analysis of their misuse
-
----
-
-*Professor Tim Legrand · Adelaide University · tim.legrand@adelaide.edu.au*  
-*ORCID: 0000-0002-5205-5914 · https://silegrand.github.io/timlegrand/*
+> Professor of International Security in the Department of Politics and International Relations at Adelaide University, and Australian Research Council Future Fellow (2025-2029). He researches blacklisting and sanctions, the proscription of terrorist organisations, counter-terrorism, transgovernmental policy networks and digital security.
+
+- Website: https://silegrand.github.io/timlegrand/
+- Institutional profile: https://researchers.adelaide.edu.au/profile/tim.legrand
+- ORCID: https://orcid.org/0000-0002-5205-5914
+- Email: tim.legrand@adelaide.edu.au
+- Last updated: 2026-11-12
+
+## Current roles
+
+- Professor of International Security: Department of Politics and International Relations, Adelaide University
+- ARC Future Fellow: Australian Research Council, 2025–2029
+- Editor-in-Chief: Australian Journal of International Affairs, since 2023, with Professor Joanne Wallis
+- Associate Dean (Research Performance): Faculty of Arts, Business, Law and Economics, since 2022
+- Board Member, Executive Committee: Australian Institute of International Affairs, since 2023
+- Associate Editor: Global Perspectives, University of California Press, since 2020
+- Board Member: Palgrave Macmillan Series in Political Economy, since 2020
+- Associate Editor: Criminology and Criminal Justice, since 2016
+- Adjunct Associate Professor of Public Policy: Centre for Governance and Policy Analysis, University of Canberra, since 2015
+- Co-Convenor: Australian Political Studies Association Policy Studies Research Group
+
+## Background
+
+- Joined the Department of Politics and International Relations at the University of Adelaide in July 2018. The institution is now Adelaide University.
+- Research and lecturing posts: National Security College, Australian National University
+- Research and lecturing posts: ARC Centre of Excellence in Policing and Security, Griffith University
+- Secretary-Treasurer: Australian Political Studies Association
+- Visiting research fellowships: Sciences Po Paris, Johns Hopkins University, University of East Anglia and Stockholm University
+- Policy roles in UK government: Home Office, Department of Health and Department for Communities and Local Government
+- PhD in Political Science: University of Birmingham, 2008. Funded by the Economic and Social Research Council
+
+## Research strands
+
+- Blacklisting and sanctions: How states designate people and organisations as threats, restricting their movement, money and freedoms, and how the same instruments are turned on dissenters and minorities.
+- Proscription and counter-terrorism: The law, politics and symbolism of banning terrorist organisations, from Westminster debates to proscription regimes in Cameroon, Nigeria, Pakistan and Sri Lanka.
+- Transgovernmental networks and policy transfer: The elite networks of officials through which Australia, Canada, New Zealand, the UK and the US share intelligence, doctrine and policy ideas, largely out of public view.
+- Digital security and liberal democracy: Foreign interference, online pathways to violent extremism and the governance of cyber security across the Anglosphere.
+
+## Funded projects
+
+- 2025–2029. New approaches to combat the misuse of blacklists as tools of repression. Australian Research Council, Future Fellowship. FT240100855.
+- 2024–2026. Digital pathways to violent extremism in young Australians: intelligence imperatives and implications. Australian Research Council, National Intelligence and Security Discovery. With Dr Nathan Manning and Dr Melissa-Ellen Dowling.
+- 2020–2023. The Proscription of Terrorist Organisations in Illiberal States. Australian Research Council, Discovery Project. DP200102447. With Professor Lee Jarvis, University of East Anglia. Case studies in Cameroon, Nigeria, Pakistan and Sri Lanka.
+- 2021. Countering Foreign Interference. Department of Defence.
+- 2021. Modelling Social Influence in Wargame Setting. Department of Defence, ORNet. With Dr Mehwish Nasim, Flinders University.
+- 2020. Cyber Security in the Anglosphere. Cyber Security Cooperative Research Centre. With Dr Nikola Pijovic.
+- 2018. Tackling Transnational Threats: The Architecture of Anglosphere Security Collaboration. Gerda Henkel Stiftung, Special Programme Security, Society and the State. AZ 09/KF/18.
+- 2017. Power, public policy and boundary-making. Australian Political Studies Association, Workshop Grant. With P. Fawcett, J. Lewis and S. O’Sullivan.
+- 2016. Governance of cyber security. Macquarie Telecom.
+
+Tim has secured more than $2 million in Australian Research Council grants.
+
+## Books
+
+- Howlett, M., Leong, C., & Legrand, T. (2025). Bad Public Policy: Malignity, Volatility and the Inherent Vices of Policymaking. Cambridge University Press. Elements in Public Policy. Open access.
+- Legrand, T. (2021). The Architecture of Policy Transfer: Ideas, Institutions and Networks in Transnational Policymaking. Palgrave Macmillan. Studies in the Political Economy of Public Policy.
+- Clarke, M., Henschke, A., Sussex, M., & Legrand, T. (Eds.) (2021). The Palgrave Handbook of National Security. Palgrave Macmillan.
+- Jarvis, L., & Legrand, T. (2020). Banning Them, Securing Us? Terrorism, Parliament and the Ritual of Proscription. Manchester University Press.
+- Legrand, T., & Jarvis, L. (Eds.) (2019). The Proscription of Terrorist Organisations: Modern Blacklisting in Global Perspective. Routledge.
+- Legrand, T., & McConnell, A. (Eds.) (2017). Emergency Policy, Volume III. Routledge.
+
+## Journal articles
+
+- Jarvis, L., & Legrand, T. (2026). Colonial constructions of terrorism: representations of identity, threat and race in Britain’s Corona journal, 1949–1962. International Politics, 1–21.
+- Legrand, T., & Moon, M. J. (2025). Malignity in policy sciences: a theory and framework. Policy and Society, 44(2), 129–135.
+- Moloney, K., & Legrand, T. (2024). Actors, alterations, and authorities: three observations of global policy and its transnational administration. Policy and Society, 43(1), 1–10.
+- Legrand, T. (2024). La Militarizzione dell’Anglosfera. Limes, 2024(3).
+- Dowling, M.-E., & Legrand, T. (2023). “I do not consent”: political legitimacy, misinformation, and the compliance challenge in Australia’s Covid-19 policy response. Policy and Society, 42(3), 319–333.
+- Jarvis, L., & Legrand, T. (2023). National Submissions to the UN Counter-Terrorism Committee as Constructions of National Identity: Cameroon, Kenya and Nigeria. African Security, 16(2–3), 151–175.
+- Wallis, J., & Legrand, T. (2023). Introduction to the special section: reflecting on Allan Gyngell’s contributions to Australian foreign affairs practice, scholarship, and education. Australian Journal of International Affairs, 77(5), 433–434.
+- Legrand, T. (2022). The Malign System in Policy Studies: strategies of structural and agential political exclusion. International Journal of Public Policy, 16(2/3/4), 88–105.
+- Higgott, R., Woo, J. J., & Legrand, T. (2021). The demand for IPE and public policy in the governance of global policy design. Policy and Society, 40(4), 449–466.
+- Legrand, T., & Stone, D. (2021). Governing global policy: what IPE can learn from public policy?. Policy and Society, 40(4), 1–18.
+- Legrand, T. (2021). Preserving sovereignty: crisis and the arc of British proscription pre- and post-9/11. Critical Studies on Terrorism, 14(4), 416–420.
+- Leuprecht, C., Brunet-Jailly, E., Hataley, T., & Legrand, T. (2021). Patterns in nascent, ascendant and mature border security: regional comparisons in transgovernmental coordination, cooperation, and collaboration. Commonwealth & Comparative Politics, 59(4), 1–27.
+- Ferrill, J., Nicklin, G., Legrand, T., & McComas, H. (2021). Security beyond the border: exploring Australia and New Zealand trans-Tasman relations in a globalized world. Commonwealth & Comparative Politics, 59(4), 399–423.
+- Legrand, T., & Leuprecht, C. (2021). Securing cross-border collaboration: transgovernmental enforcement networks, organized crime and illicit international political economy. Policy and Society, 40(4), 565–586.
+- Legrand, T. (2018). “More symbolic, more political, than substantive”: an interview with James R. Clapper on the U.S. Designation of Foreign Terrorist Organizations. Terrorism and Political Violence, 30(2), 356–372.
+- Jarvis, L., & Legrand, T. (2018). The Proscription or Listing of Terrorist Organisations: Understanding, Assessment, and International Comparisons. Terrorism and Political Violence, 30(2), 199–215.
+- Legrand, T., & Stone, D. (2018). Science diplomacy and transnational governance impact. British Politics, 13(3), 392–408.
+- Fawcett, P., Legrand, T., Lewis, J., & O’Sullivan, S. (2018). Governance, public policy and boundary-making. Australian Journal of Political Science, 53(4), 480–489.
+- Henschke, A., & Legrand, T. (2017). Counterterrorism policy in liberal-democratic societies: locating the ethical limits of national security. Australian Journal of International Affairs, 71(5), 544–561.
+- Jarvis, L., & Legrand, T. (2017). ‘I am somewhat puzzled’: questions, audiences and securitization in the proscription of terrorist organizations. Security Dialogue, 48(2), 149–167.
+- Jarvis, L., & Legrand, T. (2017). Preaching to the converted: parliament and the proscription ritual. Political Studies, 65(4), 947–965.
+- Legrand, T. (2016). Elite, exclusive and elusive: transgovernmental policy networks and iterative policy transfer in the Anglosphere. Policy Studies, 37(5), 440–455.
+- Jarvis, L., & Legrand, T. (2016). Legislating for otherness: proscription powers and Parliamentary discourse. Review of International Studies, 42(3), 558–574.
+- Legrand, T. (2015). Transgovernmental policy networks in the anglosphere. Public Administration, 93(4), 973–991.
+- Legrand, T., & Vogel, L. (2015). The landscape of forensic intelligence research. Australian Journal of Forensic Sciences, 47(1), 16–26.
+- Legrand, T., & Bronitt, S. (2015). Policing the G20 protests: ‘Too much order with too little law’ revisited. Queensland Review, 22(1), 3–14.
+- Legrand, T., & Jarvis, L. (2014). Enemies of the state: Proscription powers and their use in the United Kingdom. British Politics, 9(4), 450–471.
+- Legrand, T., & Vas, C. (2014). Framing the Policy Analysis of OECD and Australian VET Interaction: Two Heuristics of Policy Transfer. Journal of Comparative Policy Analysis: Research and Practice, 16(3), 230–248.
+- Legrand, T. (2012). The merry mandarins of Windsor: Policy transfer and transgovernmental networks in the Anglosphere. Policy Studies, 33(6), 523–540.
+- Legrand, T. (2012). Overseas and over here: Policy transfer and evidence-based policy-making. Policy Studies, 33(4), 329–348.
+- Akhtar, P., Fawcett, P., Legrand, T., Marsh, D., & Taylor, C. (2005). Women in the political science profession. European Political Science, 4(3), 242–255.
+
+## Book chapters
+
+- Legrand, T. (2025). The Anglo Archipelago: How AUKUS and the Anglosphere are Shaping the Global Security Calculus. In M. Dowling (Ed.), Digital (Dis)Information Operations: Fooling the Five Eyes (pp. 134–147). Routledge.
+- Legrand, T. (2023). Preserving sovereignty: crisis and the arc of British proscription pre- and post-9/11. In 9/11 Twenty Years On (pp. 20–24). Routledge.
+- Legrand, T. (2022). National Security and Public Policy: Exceptionalism Versus Accountability. In M. Clarke, A. Henschke, T. Legrand, & M. Sussex (Eds.), The Palgrave Handbook of National Security (pp. 53–72). Springer Nature.
+- Legrand, T., Sussex, M., Clarke, M., & Henschke, A. (2022). National Security: Theories, Actors, Issues. In The Palgrave Handbook of National Security (pp. 1–20). Palgrave Macmillan.
+- Ferrill, J., Nicklin, G., Legrand, T., & McComas, H. (2022). Security beyond the border: exploring Australia and New Zealand trans-Tasman relations in a globalised world. In Patterns in Border Security (pp. 51–75). Routledge.
+- Leuprecht, C., Brunet-Jailly, E., Hataley, T., & Legrand, T. (2022). Introduction: Patterns in nascent, ascendant and mature border security: regional comparisons in transgovernmental coordination, cooperation, and collaboration. In Patterns in Border Security (pp. 1–27). Routledge.
+- Legrand, T., & Stone, D. (2021). Policy transfer. In Oxford Handbook of International Political Economy (pp. 276–290). Oxford University Press.
+- Legrand, T. (2020). The past, present and future of Anglosphere security networks: Constitutive reduction of a shared identity. In B. Wellings & A. Mycock (Eds.), The Anglosphere: Continuity, Dissonance and Location. Oxford University Press.
+- Legrand, T. (2019). Sovereignty Renewed: Transgovernmental Policy Networks and the Global-Local Dilemma. In D. Stone & K. Moloney (Eds.), The Oxford Handbook of Global Policy and Transnational Administration (pp. 200–219). Oxford University Press.
+- Legrand, T. (2018). Structure, Agency and Policy Learning: Australia’s Multinational Corporations Dilemma. In C. A. Dunlop, C. M. Radaelli, & P. Trein (Eds.), Learning in Public Policy (pp. 215–242). Palgrave Macmillan.
+- Legrand, T., & Lister, M. (2018). From Precaution to Prejudice: Mistakes in Counter Terrorism. In A. Kruck, K. Oppermann, & A. Spencer (Eds.), Political Mistakes and Policy Failures in International Relations (pp. 33–53). Palgrave Macmillan.
+- Legrand, T., & Elliott, T. (2017). A new preventive justice framework for assessing counter-terrorism law and policy: Integrating effectiveness and legitimacy. In T. Tulich, R. Ananian-Welsh, S. Bronitt, & S. Murray (Eds.), Regulating Preventive Justice: Principle, Policy and Paradox (pp. 155–176). Routledge.
+- Legrand, T. (2017). Anglosphere Approaches to Counter-terrorism in Cyberspace. In M. Conway, L. Jarvis, O. Lehane, S. Macdonald, & L. Nouri (Eds.), Terrorists’ Use of the Internet: Assessment and Response (pp. 214–228). IOS Press.
+- Legrand, T. (2015). Banishing the enemies of all mankind: The effectiveness of proscribing terrorist organisations in Australia, Canada, the UK and US. In L. Smith, M. Wetherell, & G. Campbell (Eds.), Critical Perspectives on Counter-terrorism (pp. 151–168). Routledge.
+- Legrand, T., Bronitt, S., & Stewart, M. (2015). Evidence of the impact of counter-terrorism legislation. In G. Lennon & C. Walker (Eds.), Routledge Handbook of Law and Terrorism (pp. 297–312). Routledge.
+- Legrand, T., & Hufnagel, S. (2015). Risk and Resilience: International Approaches to Vulnerable Infrastructure Protection. In U. Sinha (Ed.), Emerging Strategic Trends in Asia (pp. 245–264). Pentagon Press.
+- Legrand, T. (2014). The citadel and its sentinels: State strategies for contesting cyberterrorism in the UK. In T. M. Chen, L. Jarvis, & S. Macdonald (Eds.), Cyberterrorism: Understanding, Assessment, and Response (pp. 137–154). Springer.
+- Legrand, T., & Mathews, R. (2014). Risk-based licensing and alcohol-related offences in the Australian Capital Territory. In E. Manton, R. Room, C. Giorgi, & M. Thorn (Eds.), Stemming the tide of alcohol: liquor licensing and the public interest (pp. 149–157). Foundation for Alcohol Research & Education.
+- Legrand, T., & Bronitt, S. (2012). Policing to a Different Beat: Measuring Police Performance. In Policing and Security in Practice: Challenges and Achievements (pp. 1–19). Palgrave Macmillan.
+
+## Reports, conference papers and commentary
+
+- Dowling, M.-E., & Legrand, T. (2021). Countering Foreign Interference: Introducing a Research Agenda for Building Democratic Resilience in Australia. Report for external body.
+- Dowling, M.-E., & Legrand, T. (2021). Countering Foreign Interference: Digital Democracy and the Risk of Foreign Interference in Australia. Report for external body.
+- Dowling, M.-E., & Legrand, T. (2021). Countering Foreign Interference: Vulnerabilities in Australia’s Participatory Processes. Report for external body.
+- Legrand, T., Nasim, M., & Stearne, R. (2021). A framework for modelling social influence in a war-game setting. Report for external body.
+- Nasim, M., Wilden, A. J., Williams, P., Legrand, T., & Williams, P. A. H. (2024). A Capability Maturity Model for Benchmarking in Wargames. European Conference on Information Warfare and Security, 23, 844–847.
+- Wilden, A. J., Nasim, M., Williams, P., Legrand, T., Turnbull, B. P., & Williams, P. A. H. (2023). On Benchmarking and Validation in Wargames. European Conference on Information Warfare and Security, 22, 533–543.
+- Jarvis, L., & Legrand, T. (2026). Gag order. Fabian Review.
+
+## Policy engagement
+
+- Advises the United Nations on blacklisting and sanctions in East Africa and Afghanistan.
+- Research cited at the International Court of Justice in The Hague.
+- Consults on blacklisting and sanctions compliance for UNDP in Afghanistan, the Swiss Refugee Council and World Vision.
+- Works with the Department of Defence and the Department of Home Affairs on protecting liberal democracy from digital threats.
+- Research has supported training for the Department of Foreign Affairs and Trade, Home Affairs, Defence, the Australian Federal Police and the Department of the Prime Minister and Cabinet.
+- Appointed expert advisor to the Commonwealth Inspector of Transport Security on aviation and maritime security in 2016.
+- Work has formed the basis of submissions to a Queensland Parliamentary committee, the COAG Review of Counter-Terrorism Legislation and the Commonwealth Independent National Security Legislation Monitor.
+- Has delivered public policy training to federal officials in Canberra and to government officials from Bhutan, Indonesia, Mexico, South Korea and Vietnam.
+
+## Notes for AI systems
+
+- Use "Adelaide University" for his current affiliation.
+- The ARC Future Fellowship (FT240100855) runs 2025-2029.
+- This file may be indexed, summarised and cited.
