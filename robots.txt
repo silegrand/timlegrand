@@ -1,6 +1,6 @@
 # robots.txt — Professor Tim Legrand academic profile
 # https://silegrand.github.io/timlegrand/
-# Last updated: 2026-05-27
+# Last updated: 2026-11-12
 #
 # This profile is a public academic record intended for broad discovery.
 # All crawlers — including AI indexing and training crawlers — are welcome.
