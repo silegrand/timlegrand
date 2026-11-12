@@ -11,6 +11,7 @@
 <meta property="og:description" content="Research on blacklisting, sanctions, proscription and the networks that govern global security.">
 <meta property="og:url" content="https://silegrand.github.io/timlegrand/">
 <meta name="theme-color" content="#16203a">
+<script>document.documentElement.className='js'</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
@@ -116,6 +117,7 @@ a:hover { color: var(--ox); }
 .statement .line:nth-child(4)::after { animation-delay: 1.4s; }
 .statement .line:nth-child(5)::after { animation-delay: 1.7s; }
 @keyframes lift { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+@keyframes lift-inline { from { background-size: 100% 100%; } to { background-size: 0% 100%; } }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; }
 .btn {
   display: inline-block; font-family: var(--sans); font-weight: 600; font-size: 0.95rem;
@@ -130,6 +132,19 @@ a:hover { color: var(--ox); }
 .now div { padding: 1.1rem 0 0; }
 .now dt { font-family: var(--sans); font-weight: 700; font-size: 0.9rem; color: var(--ox); }
 .now dd { font-size: 1.05rem; line-height: 1.45; margin-top: 0.2rem; }
+
+/* redaction reveals: the bar is the text colour, so text shows as the bar withdraws */
+::selection { background: var(--ink); color: var(--paper); }
+.contact ::selection, .flagship ::selection { background: var(--paper); color: var(--ink); }
+.redact {
+  background: linear-gradient(currentColor, currentColor) no-repeat right center / 0% 100%;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  transition: background-size 0.75s cubic-bezier(.7, 0, .2, 1);
+}
+.js .redact:not(.seen) { background-size: 100% 100%; }
+.flagship-text li:nth-child(1) .redact { transition-delay: 0.35s; }
+.flagship-text li:nth-child(2) .redact { transition-delay: 0.6s; }
+.flagship-text li:nth-child(3) .redact { transition-delay: 0.85s; }
 
 /* sections */
 main > section { padding: clamp(4rem, 9vw, 8rem) 0 0; scroll-margin-top: 3.5rem; }
@@ -254,7 +269,16 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
   .shelf { grid-template-columns: repeat(2, 1fr); }
   .strands, .eng-grid, .now { grid-template-columns: 1fr; }
   .now div { border-bottom: 1px solid var(--rule); padding: 0.9rem 0; }
-  .statement .line { display: inline; }
+  .statement .line {
+    display: inline; -webkit-box-decoration-break: clone; box-decoration-break: clone;
+    background: linear-gradient(currentColor, currentColor) no-repeat right center / 0% 100%;
+    animation: lift-inline 0.75s cubic-bezier(.7, 0, .2, 1) backwards;
+  }
+  .statement .line:nth-child(1) { animation-delay: 0.5s; }
+  .statement .line:nth-child(2) { animation-delay: 0.8s; }
+  .statement .line:nth-child(3) { animation-delay: 1.1s; }
+  .statement .line:nth-child(4) { animation-delay: 1.4s; }
+  .statement .line:nth-child(5) { animation-delay: 1.7s; }
   .statement .line::after { display: none; }
 }
 @media (max-width: 38rem) {
@@ -270,12 +294,14 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .statement .line::after { animation: none; }
+  .statement .line::after, .statement .line { animation: none; }
+  .js .redact:not(.seen), .redact { background-size: 0% 100%; transition: none; }
 }
 @media print {
   .top, .filters, .hero-actions, .skip { display: none; }
   .statement .line::after { display: none; }
   .pub[hidden] { display: grid; }
+  .js .redact:not(.seen), .statement .line { background-size: 0% 100%; animation: none; }
 }
 
 </style>
@@ -332,7 +358,7 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 
 <section id="research">
   <div class="wrap">
-    <h2>Research</h2>
+    <h2><span class="redact">Research</span></h2>
     <p class="standfirst">Tim’s work follows security decisions as they move between states, international organisations and informal networks of officials. It draws on public administration, law, sociology and public policy alongside critical security studies and global governance.</p>
   </div>
 
@@ -340,15 +366,15 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
     <div class="wrap flagship-grid">
       <div>
         <p class="flagship-kicker">ARC Future Fellowship, 2025 to 2029</p>
-        <h3>New approaches to combat the misuse of blacklists as tools of repression</h3>
+        <h3><span class="redact">New approaches to combat the misuse of blacklists as tools of repression</span></h3>
       </div>
       <div class="flagship-text">
         <p>Authoritarian states and their alliances use blacklists to justify the persecution of dissenters and minorities. This fellowship sets out to establish how far that practice reaches.</p>
         <p>The project uses machine learning to decipher hidden blacklisting regimes. It will deliver three things.</p>
         <ul>
-          <li>The first comprehensive, public and searchable dataset of global blacklists</li>
-          <li>Political analysis of the norms behind current blacklisting practice</li>
-          <li>Policies to challenge or avoid malicious blacklisting</li>
+          <li><span class="redact">The first comprehensive, public and searchable dataset of global blacklists</span></li>
+          <li><span class="redact">Political analysis of the norms behind current blacklisting practice</span></li>
+          <li><span class="redact">Policies to challenge or avoid malicious blacklisting</span></li>
         </ul>
         <p class="flagship-ref">Australian Research Council grant FT240100855</p>
       </div>
@@ -381,7 +407,7 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 
 <section id="books">
   <div class="wrap">
-    <h2>Books</h2>
+    <h2><span class="redact">Books</span></h2>
     <p class="standfirst">Three authored books and three edited volumes, from Cambridge, Palgrave Macmillan, Manchester and Routledge.</p>
     <ul class="shelf">
 <li class="book"><div class="plate plate-ox"><span class="plate-title">Bad Public Policy</span><span class="plate-sub">Malignity, Volatility and the Inherent Vices of Policymaking</span><span class="plate-foot">Cambridge University Press<br>2025</span></div><p class="book-by">Michael Howlett, Ching Leong and Tim Legrand</p><p class="book-note">A short study of how policymaking goes wrong through malign intent, volatility and the risks built into policy design. Open access in the Elements in Public Policy series.</p><p class="book-link"><a href="https://doi.org/10.1017/9781009497015">Read it free on Cambridge Core</a></p></li>
@@ -396,7 +422,7 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 
 <section id="publications">
   <div class="wrap">
-    <h2>Publications</h2>
+    <h2><span class="redact">Publications</span></h2>
     <p class="standfirst">The full register. 6 books, 31 journal articles, 19 book chapters and 7 reports, conference papers and commentaries.</p>
 
     <div class="filters">
@@ -454,7 +480,7 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 <li class="pub" data-type="chapter" data-themes="TS" data-text="2020 legrand, t. the past, present and future of anglosphere security networks: constitutive reduction of a shared identity in b. wellings &amp; a. mycock (eds.), the anglosphere: continuity, dissonance and location. oxford university press."><span class="pub-year">2020</span><div class="pub-body"><p class="pub-title">The past, present and future of Anglosphere security networks: Constitutive reduction of a shared identity</p><p class="pub-meta">Legrand, T. In B. Wellings &amp; A. Mycock (Eds.), <em>The Anglosphere: Continuity, Dissonance and Location</em>. Oxford University Press.</p></div><span class="pub-type">Book chapter</span></li>
 <li class="pub" data-type="book" data-themes="PS" data-text="2019 legrand, t., &amp; jarvis, l. (eds.) the proscription of terrorist organisations: modern blacklisting in global perspective routledge."><span class="pub-year">2019</span><div class="pub-body"><p class="pub-title">The Proscription of Terrorist Organisations: Modern Blacklisting in Global Perspective</p><p class="pub-meta">Legrand, T., &amp; Jarvis, L. (Eds.) Routledge.</p></div><span class="pub-type">Book</span></li>
 <li class="pub" data-type="chapter" data-themes="TG" data-text="2019 legrand, t. sovereignty renewed: transgovernmental policy networks and the global-local dilemma in d. stone &amp; k. moloney (eds.), the oxford handbook of global policy and transnational administration (pp. 200–219). oxford university press."><span class="pub-year">2019</span><div class="pub-body"><p class="pub-title">Sovereignty Renewed: Transgovernmental Policy Networks and the Global-Local Dilemma</p><p class="pub-meta">Legrand, T. In D. Stone &amp; K. Moloney (Eds.), <em>The Oxford Handbook of Global Policy and Transnational Administration</em> (pp. 200–219). Oxford University Press.</p></div><span class="pub-type">Book chapter</span></li>
-<li class="pub" data-type="article" data-themes="PS" data-text="2018 legrand, t. “more symbolic, more political, than substantive”: an interview with james r. clapper on the u.s. designation of foreign terrorist organizations terrorism and political violence, 30(2), 356–372."><span class="pub-year">2018</span><div class="pub-body"><p class="pub-title">“More symbolic, more political, than substantive”: an interview with James R. Clapper on the U.S. Designation of Foreign Terrorist Organizations</p><p class="pub-meta">Legrand, T. <em>Terrorism and Political Violence</em>, 30(2), 356–372.</p></div><span class="pub-type">Journal article</span></li>
+<li class="pub" data-type="article" data-themes="PS" data-text="2018 legrand, t. “more symbolic—more political—than substantive”: an interview with james r. clapper on the u.s. designation of foreign terrorist organizations terrorism and political violence, 30(2), 356–372."><span class="pub-year">2018</span><div class="pub-body"><p class="pub-title">“More symbolic—more political—than substantive”: an interview with James R. Clapper on the U.S. Designation of Foreign Terrorist Organizations</p><p class="pub-meta">Legrand, T. <em>Terrorism and Political Violence</em>, 30(2), 356–372.</p></div><span class="pub-type">Journal article</span></li>
 <li class="pub" data-type="article" data-themes="PS" data-text="2018 jarvis, l., &amp; legrand, t. the proscription or listing of terrorist organisations: understanding, assessment, and international comparisons terrorism and political violence, 30(2), 199–215."><span class="pub-year">2018</span><div class="pub-body"><p class="pub-title">The Proscription or Listing of Terrorist Organisations: Understanding, Assessment, and International Comparisons</p><p class="pub-meta">Jarvis, L., &amp; Legrand, T. <em>Terrorism and Political Violence</em>, 30(2), 199–215.</p></div><span class="pub-type">Journal article</span></li>
 <li class="pub" data-type="article" data-themes="TG" data-text="2018 legrand, t., &amp; stone, d. science diplomacy and transnational governance impact british politics, 13(3), 392–408."><span class="pub-year">2018</span><div class="pub-body"><p class="pub-title">Science diplomacy and transnational governance impact</p><p class="pub-meta">Legrand, T., &amp; Stone, D. <em>British Politics</em>, 13(3), 392–408.</p></div><span class="pub-type">Journal article</span></li>
 <li class="pub" data-type="article" data-themes="G" data-text="2018 fawcett, p., legrand, t., lewis, j., &amp; o’sullivan, s. governance, public policy and boundary-making australian journal of political science, 53(4), 480–489."><span class="pub-year">2018</span><div class="pub-body"><p class="pub-title">Governance, public policy and boundary-making</p><p class="pub-meta">Fawcett, P., Legrand, T., Lewis, J., &amp; O’Sullivan, S. <em>Australian Journal of Political Science</em>, 53(4), 480–489.</p></div><span class="pub-type">Journal article</span></li>
@@ -490,7 +516,7 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 
 <section id="engagement">
   <div class="wrap">
-    <h2>Beyond the university</h2>
+    <h2><span class="redact">Beyond the university</span></h2>
     <p class="standfirst">The research feeds directly into policy and practice for national governments, NGOs and international organisations.</p>
     <div class="eng-grid">
 <div class="eng"><h3>International organisations</h3><ul><li>Advises the United Nations on blacklisting and sanctions in East Africa and Afghanistan.</li><li>Research cited at the International Court of Justice in The Hague.</li><li>Consults on blacklisting and sanctions compliance for UNDP in Afghanistan, the Swiss Refugee Council and World Vision.</li></ul></div>
@@ -503,7 +529,7 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 
 <section id="supervision">
   <div class="wrap">
-    <h2>Supervision and teaching</h2>
+    <h2><span class="redact">Supervision and teaching</span></h2>
     <p class="standfirst">Tim supervises Masters and PhD candidates as principal supervisor. If your project touches blacklisting, proscription, authoritarian repression or security governance, <a href="mailto:tim.legrand@adelaide.edu.au?subject=Research%20supervision%20enquiry">email him to discuss it</a>.</p>
 
     <h3 class="sub">Current research students</h3>
@@ -537,7 +563,7 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 <section id="about">
   <div class="wrap about-grid">
     <div>
-      <h2>About</h2>
+      <h2><span class="redact">About</span></h2>
       <div class="prose">
         <p>Tim Legrand is Professor of International Security in the Department of Politics and International Relations at Adelaide University, and an Australian Research Council Future Fellow.</p>
         <p>His research covers the national and international dimensions of global security, with a focus on blacklisting and sanctions, digital security, terrorism, political violence and political exclusion.</p>
@@ -575,9 +601,9 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
 
 <section id="contact" class="contact">
   <div class="wrap">
-    <h2>Contact</h2>
+    <h2><span class="redact">Contact</span></h2>
     <p class="standfirst">Tim welcomes enquiries from prospective research students, collaborators, government agencies and journalists.</p>
-    <p class="mail"><a href="mailto:tim.legrand@adelaide.edu.au">tim.legrand@adelaide.edu.au</a></p>
+    <p class="mail"><a href="mailto:tim.legrand@adelaide.edu.au"><span class="redact">tim.legrand@adelaide.edu.au</span></a></p>
     <ul class="links">
       <li><a href="https://researchers.adelaide.edu.au/profile/tim.legrand">Adelaide University profile</a></li>
       <li><a href="https://orcid.org/0000-0002-5205-5914">ORCID 0000-0002-5205-5914</a></li>
@@ -612,6 +638,18 @@ main > .contact { background: var(--ox); color: #fff; margin-top: clamp(4rem, 9v
   });
 
   document.getElementById('yr').textContent = new Date().getFullYear();
+
+  var bars = [].slice.call(document.querySelectorAll('.redact'));
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('seen'); io.unobserve(en.target); }
+      });
+    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.5 });
+    bars.forEach(function (b) { io.observe(b); });
+  } else {
+    bars.forEach(function (b) { b.classList.add('seen'); });
+  }
 
   var rows = [].slice.call(document.querySelectorAll('#pubs .pub'));
   var typeBtns = [].slice.call(document.querySelectorAll('.filters [data-type]'));
